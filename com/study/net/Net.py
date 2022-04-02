@@ -14,7 +14,8 @@ X, y = datasets.make_regression(
     noise=0,
     n_features=1,
     random_state=8,
-    n_informative=1
+    n_informative=1,
+    bias=1.30
 )
 
 plt.scatter(X, y, c='blue')
